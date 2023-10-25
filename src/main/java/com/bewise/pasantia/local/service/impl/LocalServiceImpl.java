@@ -4,7 +4,6 @@ import com.bewise.pasantia.local.exceptions.LocalNotFoundException;
 import com.bewise.pasantia.local.model.Local;
 import com.bewise.pasantia.local.repository.LocalRepository;
 import com.bewise.pasantia.local.service.LocalService;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 import java.util.List;

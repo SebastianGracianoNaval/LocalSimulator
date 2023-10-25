@@ -1,8 +1,7 @@
 package com.bewise.pasantia.local.model;
 
 import jakarta.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
+
 
 @Entity
 @Table(name = "dia")
@@ -21,6 +20,7 @@ public class Dia {
     @ManyToOne
     @JoinColumn(name = "local_id")
     private Local local;
+    private DiaEstado estado;
 
     // Constructores, getters y setters
 
@@ -55,6 +55,14 @@ public class Dia {
 
     public void setLocal(Local local) {
         this.local = local;
+    }
+
+    public void setEstado(DiaEstado estado) {
+        this.estado = estado;
+    }
+
+    public DiaEstado getEstado() {
+        return estado;
     }
 }
 

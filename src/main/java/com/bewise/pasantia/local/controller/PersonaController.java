@@ -1,6 +1,5 @@
 package com.bewise.pasantia.local.controller;
 
-import com.bewise.pasantia.local.dto.PersonaDto;
 import com.bewise.pasantia.local.model.Persona;
 import com.bewise.pasantia.local.service.impl.PersonaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

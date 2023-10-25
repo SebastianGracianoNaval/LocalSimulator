@@ -3,7 +3,6 @@ package com.bewise.pasantia.local.service.impl;
 import com.bewise.pasantia.local.model.Proveedor;
 import com.bewise.pasantia.local.repository.ProveedorRepository;
 import com.bewise.pasantia.local.service.ProveedorService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

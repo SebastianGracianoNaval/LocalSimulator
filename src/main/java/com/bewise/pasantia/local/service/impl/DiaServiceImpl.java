@@ -1,6 +1,5 @@
 package com.bewise.pasantia.local.service.impl;
 
-import com.bewise.pasantia.local.exceptions.DiaNotFoundException;
 import com.bewise.pasantia.local.model.*;
 import com.bewise.pasantia.local.repository.*;
 import com.bewise.pasantia.local.service.DiaService;
